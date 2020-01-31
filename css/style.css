@@ -1,0 +1,110 @@
+*{box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(201, 223, 216)
+    
+}
+.register{
+    margin:2.5% auto;
+    width:50%;
+    align-items: center;
+}
+.login {
+    margin:5% auto;
+    width:50%;
+    align-items: center;
+    
+
+}
+.container {
+      width:70%;
+      margin:auto;
+}
+.reg-header  {
+      padding:10px auto;
+      text-align: center;
+}
+.reg-header h2{
+   text-transform: uppercase;
+   font-size:1.5rem;
+   text-align: center;
+   opacity:0.8;
+   font-weight: bold;
+}
+.input-group {
+    margin:10px auto;
+}
+.input-group label {
+      display: inline-block;
+      margin: 2px auto;
+      font-size: 1rem;
+      font-weight: bold;
+}
+.input-group span {
+    display: block;
+    margin-top:2px;
+    font-size:0.8rem;
+    color: brown;
+    padding:2px;
+}
+ form .input-group  input {
+       width:100%;
+       padding:10px 8px;
+       outline: none;
+       border-radius: 5px;
+       border:none;
+}
+form .input-group  input[type=submit]{
+      background-color:rgb(72, 172, 230);
+      border-radius: 2px;
+      width:100%;
+      font-weight: bolder;
+      color:white;
+      transition: background 2s;
+}
+form .input-group input[type=submit]:hover {
+        background-color:rgb(56, 116, 184) ;
+        cursor: pointer;
+   
+}
+form .input-group p {
+     text-align: center;;
+     font-weight: bold;
+     font-size: 1.1rem;
+}
+form .input-group a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.welcome {
+    background-color:rgb(56, 116, 184) ;
+    padding:8px;
+}
+.welcome-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+.welcome-inner a {
+     text-align: none;
+     text-decoration: none;
+}
+@media only screen and (max-width: 768px){
+      .container{
+           width:100%;
+      }
+      .register{
+        margin:10% auto;
+        width:90%;
+        align-items: center;
+    }
+    .login {
+        margin:30% auto;
+        width:90%;
+        align-items: center; 
+    }
+}
